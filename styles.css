@@ -1,0 +1,31 @@
+.Cart {
+    background-color: white;
+    border : solid black 5px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: solid black 5px;
+    background-color : white;
+}
+.Shop {
+    
+}
+.middleName {
+    border-left: solid black 5px;
+    
+}
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+body {
+    background-image : url(http://sfwallpaper.com/images/yellow-background-2.jpg);
+    background-repeat : no-repeat;
+    background-size : 100%;
+}
+.item {
+    display : flex;
+    justify-content : space-around;
+    
+}
