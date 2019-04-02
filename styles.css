@@ -9,7 +9,7 @@
     background-color : white;
 }
 .Shop {
-    
+    font-family: 'Raleway', sans-serif;
 }
 .middleName {
     border-left: solid black 5px;
@@ -18,14 +18,28 @@
 h2 {
     margin: 0;
     padding: 10px;
+     font-family: 'Playfair Display', serif;
 }
 body {
-    background-image : url(http://sfwallpaper.com/images/yellow-background-2.jpg);
+    /*background-image : url(http://sfwallpaper.com/images/yellow-background-2.jpg);*/
+    background-image : url(https://www.irishtimes.com/polopoly_fs/1.2658801.1464084355!/image/image.jpg_gen/derivatives/box_620_330/image.jpg);
     background-repeat : no-repeat;
-    background-size : 100%;
+    background-size: 100%;
 }
 .item {
     display : flex;
     justify-content : space-around;
     
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+button {
+     font-family: 'Raleway', sans-serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+.result {
+    font-family: 'Playfair Display', serif;
 }
