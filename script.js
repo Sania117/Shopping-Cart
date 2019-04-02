@@ -24,10 +24,14 @@ $(".add").click(function() {
 });
 $(".finalize").click(function() {
     var finalPrice = 0;
+    var item = products [0];
+    if(products.length >= 3) {
+    item = products [ 0] + ", "  +products [1] + ", and " + products [2];
+    }
     prices.forEach(function(price) {
         var priceAsNumber;
         priceAsNumber = Number(price);
         finalPrice = finalPrice + priceAsNumber;
     });
-   $(".result").text(" Thank you for your purchase your total is $" + finalPrice + ".");
+   $(".result").text(" Thank you for your purchase of " + item + " your total is $" + finalPrice + ".");
 });
